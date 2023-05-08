@@ -13,22 +13,6 @@
         background-color: grey;
       }
 
-      .accordionTitle {
-        cursor: pointer;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-      
-      
-      .accordionTitle + .accordionContent {
-        display: none;
-      }
-    
-      .accordionTitle.is-open + .accordionContent {
-        display: block;
-      }
 
 
 /* Code is courtosy of  */

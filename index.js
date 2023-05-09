@@ -1,11 +1,11 @@
 let quotesArray = [
-  'NAPS is by far the most significant cultural force of the decade. — New York Times',
-  'These days sleeping at your desk is not just acceptable, it’s encouraged. — The Atlantic',
-  'NAPS has changed the way people think about sleep, on a grand scale. — Washington Post',
-  'Happiness increased 200% since NAPS began promoting siestas. — National Science Review',
-  'NAPS has ushered in a new era of sleep. — USA Today',
-  'Not surprisingly, more siestas means more productivity. — Wall Street Journal',
-  'NAPS is doing the hard work of helping people get the rest they need. — U.S. News'
+  'It is said of all companies, Little Bird Toys make the best wooden toys! — New York Times',
+  'The siblings have their own sense of magic when it comes to their products. — The Atlantic',
+  'This little bird is flying high with their quality! — Washington Post',
+  'Simply put, these people are legends in the making, ready to make their mark on our world! — Associated Press',
+  'Nothing needs to be battery powered to be considered good. — USA Today',
+  'If you want the best classic toy for your children, then Little Bird is the company for you. — Wall Street Journal',
+  'I suppose that we can expect this company to be part of our lives for generations to come. — U.S. News'
   ];
   
   let randomNumber = Math.floor(Math.random()*quotesArray.length);

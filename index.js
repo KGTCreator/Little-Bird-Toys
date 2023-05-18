@@ -5,7 +5,9 @@ let quotesArray = [
   'Simply put, these people are legends in the making, ready to make their mark on our world! — Associated Press',
   'Nothing needs to be battery powered to be considered good. — USA Today',
   'If you want the best classic toy for your children, then Little Bird is the company for you. — Wall Street Journal',
-  'I suppose that we can expect this company to be part of our lives for generations to come. — U.S. News'
+  'I suppose that we can expect this company to be part of our lives for generations to come. — U.S. News',
+  'One day we all may look back on today and know that we witnessed the birth of one of the greatest toy companies ever concieved — New York Post',
+  'You can not mess with classic perfection, and this company proves just that! — The Boston Globe'
   ];
   
   let randomNumber = Math.floor(Math.random()*quotesArray.length);

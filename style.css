@@ -26,10 +26,96 @@
       }
     
       
-      h2{
-        font-family: "charcuterie-deco", sans-serif;
-      font-weight: 400;
-      font-style: normal;
+      .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #ccc; 
+      }
+      
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
       }
 
-/* Code is courtosy of  */
+/* Code is courtosy of W3Schools*/
+
+----------------------------------------------------------------------------------------
+.mcgovernPanelTab {
+    background-color: #dce0e3;
+    background-image: url('../img/stripes.png');
+    margin: 0;
+    cursor: pointer;
+    color: #000000;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid rgb(167, 167, 167);
+    width: 45%;
+    margin: auto;
+}
+.mcgovernPanelTab:hover {
+    color: #000000;
+    background-color:#dce0e3;
+    transition: .5s;
+}
+.mcgovernPanelContent {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 160px;
+    background: url(../img/bg-accordion.jpg);
+}
+.highlight {
+    color: rgb(255, 255, 255);
+    background-color:#0d7cd685;
+    border: 3px solid rgb(255, 255, 255);
+}
+.lws-title {
+    font-family: 'Contrail One';
+    padding-top: 5px;
+}
+.lws-text {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #dce0e3;
+    text-align: center;
+    border: 3px solid rgb(207, 106, 39);
+    width: 45%;
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+.navbg1 {
+    background-color: #c6c9cc;
+    border-bottom: 3px solid #c8ccce;
+}
+.navbg2 {
+    background-color: #d9dcdf;
+    border-bottom: 3px solid rgb(207, 106, 39);
+}
+.regbgborder {
+    border: 3px solid rgb(207, 106, 39);
+    background-color: #d9dcdf;
+    width: 55%;
+    height: 100%;
+}
+.imgborder {
+    border: 7px solid rgb(207, 106, 39);
+    border-radius: 10px;
+    width: 600px;
+}
+::selection {
+    background: rgb(160, 160, 160);
+  }

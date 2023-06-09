@@ -14,4 +14,56 @@ let quotesArray = [
   
   document.getElementById('press-quote').textContent = '“' + quotesArray[randomNumber].split(' — ')[0] + '”' + ' — ' + quotesArray[randomNumber].split(' — ')[1];
   
-  //console.log(quotesArray[randomNumber].split(' — ')[0]);
+  console.log(quotesArray[randomNumber].split(' — ')[0]);
+
+
+
+/*this makes it so that when you open the page, only the life of the designer tab is open and the rest are automatically closed*/
+document.getElementById("planeContent").style.display = "none";
+document.getElementById("carContent").style.display = "none";
+document.getElementById("trainTab").className =
+  "mcgovernPanelTab highlight";
+/*this function hides the pannels*/
+function hidePanels() {
+  document.getElementById("planeContent").style.display = "none";
+  document.getElementById("carContent").style.display = "none";
+  document.getElementById("trainContent").style.display = "none";
+  document.getElementById("planeTab").className = "mcgovernPanelTab";
+  document.getElementById("trainTab").className = "mcgovernPanelTab";
+  document.getElementById("carTab").className = "mcgovernPanelTab";
+}
+/*this function opens the tab with the work of the designer*/
+function showPlane() {
+  hidePanels();
+  document.getElementById("planeContent").style.display = "block";
+  document.getElementById("planeTab").className =
+    "mcgovernPanelTab highlight";
+}
+/*this function opens the tab about the life of the designer*/
+function showTrain() {
+  hidePanels();
+  document.getElementById("trainContent").style.display = "block";
+  document.getElementById("trainTab").className =
+    "mcgovernPanelTab highlight";
+}
+/*this function opens the tab about the style of the designer*/
+function showCar() {
+  hidePanels();
+  document.getElementById("carContent").style.display = "block";
+  document.getElementById("carTab").className =
+    "mcgovernPanelTab highlight";
+}
+
+function showBoat() {
+  hidePanels();
+  document.getElementById("boatContent").style.display = "block";
+  document.getElementById("boatTab").className =
+    "mcgovernPanelTab highlight";
+}
+
+function showBlocks() {
+  hidePanels();
+  document.getElementById("blocksContent").style.display = "block";
+  document.getElementById("blocksTab").className =
+    "mcgovernPanelTab highlight";
+}

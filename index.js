@@ -28,9 +28,14 @@ function hidePanels() {
   document.getElementById("planeContent").style.display = "none";
   document.getElementById("carContent").style.display = "none";
   document.getElementById("trainContent").style.display = "none";
+  document.getElementById("boatContent").style.display = "none";
+  document.getElementById("blocksContent").style.display = "none";
+
   document.getElementById("planeTab").className = "mcgovernPanelTab";
   document.getElementById("trainTab").className = "mcgovernPanelTab";
   document.getElementById("carTab").className = "mcgovernPanelTab";
+  document.getElementById("boatTab").className = "mcgovernPanelTab";
+  document.getElementById("blocksTab").className = "mcgovernPanelTab";
 }
 /*this function opens the tab with the work of the designer*/
 function showPlane() {

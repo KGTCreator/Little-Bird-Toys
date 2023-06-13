@@ -76,7 +76,7 @@
     overflow: hidden;
     margin: 0px;
     padding: 0px;
-    height: 160px;
+    /* height: 160px; */
     background: url(../img/bg-accordion.jpg);
 }
 .highlight {
